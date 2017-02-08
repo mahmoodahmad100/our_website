@@ -1,0 +1,516 @@
+/*---General---*/
+::selection
+{
+  background-color: #54a460;
+  color: #b6e68f;
+}
+::-moz-selection
+{
+  background-color: #54a460;
+  color: #b6e68f;
+}
+
+body
+{
+  font-size:18px;
+  font-family: 'Play', sans-serif;
+}
+/*---/General---*/
+
+
+
+/*---Navbar---*/
+.navbar-default
+{
+  background-color : transparent;
+  border-radius: 0px;
+  border: none;
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+.navbar-default .navbar-brand,.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+{
+  margin-left: 10px !important;
+  font-family: 'Pacifico', cursive;
+  color: #ffffff;
+  /*background-color: #21390e;*/
+  background-color : transparent;
+  border-radius:3px;
+  border: 1px solid #ffffff;
+  margin-top: 5px;
+  height: 53px;
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+.navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+{
+  font-family: 'Oswald', sans-serif;
+  margin-right: 45%;
+  height: 53px;
+  color: #ffffff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus
+{
+  color: #c6c6c6;
+}
+
+nav.navbar.change-fixed-nav
+{
+  background-color: #ffffff;
+  color: #77777C;
+  -webkit-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  box-shadow: 10px 10px 5px -8px rgba(0,0,0,0.75);
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+nav.navbar.change-fixed-nav li a
+{
+  color: #77777C;
+}
+nav.navbar.change-fixed-nav li a:hover,nav.navbar.change-fixed-nav li a:focus
+{
+  color: #21b307;
+}
+nav.navbar.change-fixed-nav .navbar-brand
+{
+  margin-top: 0px;
+  color: #54a460;
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+/*---/Navbar---*/
+
+
+/*---Header---*/
+header{
+  position: relative;
+/*  height: 610px;*/
+  width: 100%;
+  text-align: center;
+}
+
+header .row{
+  height: 100%;
+}
+
+header img{
+  width: 100%;
+/*  height: 100%;*/
+}
+
+header .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+header .content{
+  color: #63c461;
+  margin-top: 30%;
+}
+/*---/Header---*/
+
+
+/*---features---*/
+#features{
+  margin-top: 60px;
+  text-align: center;
+}
+
+#features h1{
+  font-family: 'Kaushan Script', cursive;
+}
+
+#features h4{
+  font-family: 'Permanent Marker', cursive;
+}
+
+#features .element{
+  margin-top: 30px;
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+
+#features .element:hover{
+  background-color: #d0e6d1;
+  color: #39743c;
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+
+#features i{
+  font-size: 3em;
+  height: 120px;
+  width: 120px;
+  line-height: 120px;
+  border: 1px solid green;
+  border-radius: 100%;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+/*---/features---*/
+
+
+/*---team---*/
+#team{
+  margin-top: 60px;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  position: relative;
+}
+
+#team img{
+  width: 100%;
+  height: 504.583px;
+}
+
+#team .overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 10;
+}
+
+#team .overlay h1{
+  font-family: 'Kaushan Script', cursive;
+}
+
+#team .overlay h4{
+  font-family: 'Permanent Marker', cursive;
+}
+
+#team .overlay .element{
+  margin-top: 10px;
+}
+
+#team .overlay .element h4{
+  color: #8cbe74;
+  font-size: 25px;
+  font-family: 'Rancho', cursive;
+}
+
+#team .overlay .element img{
+  height: 160px;
+  width: 160px;
+  margin: 0px auto;
+  border: 5px solid #8cbe74;
+  border-radius: 100%;
+}
+
+#team .overlay .element h5{
+  color: #8cbe74;
+}
+
+#team .overlay .element p{
+  color: rgba(140, 190, 116, 0.51);
+}
+/*---/team---*/
+
+
+/*---portfolio---*/
+#portfolio{
+  margin-top: 60px;
+  text-align: center;
+}
+
+#portfolio h1{
+  font-family: 'Kaushan Script', cursive;
+}
+
+#portfolio h4{
+  font-family: 'Permanent Marker', cursive;
+}
+
+#portfolio .menu{
+  margin-top: 30px;
+}
+
+#portfolio .menu ul{
+  list-style: none;
+}
+
+#portfolio .menu ul li{
+  color: #81cc72;
+  display: inline-block;
+  margin-right: 25px;
+  font-size: 30px;
+  font-family: 'Rancho', cursive;
+  cursor: pointer;
+  transition: 0.3s;
+  -webkit-transition:  0.3s;
+}
+
+#portfolio .menu ul li:hover{
+  color: #39743c;
+  transition: 0.3s;
+  -webkit-transition:  0.3s;
+}
+
+#portfolio .menu ul li.active{
+  color: #39743c;
+  border-top: 2px solid #39743c;
+  border-bottom: 2px solid #39743c;
+}
+
+#portfolio .col-md-4{
+  margin-top:30px;
+  height: 360px;
+  position: relative;
+}
+
+#portfolio .col-md-4.mix{
+  display: none;
+}
+
+#portfolio .col-md-4 .element{
+  height: 100%;
+  width: 100%;
+}
+
+#portfolio .col-md-4 .element img{
+  height: 100%;
+  width: 100%;
+}
+
+#portfolio .col-md-4 .overlay{
+  position: absolute;
+  top: 0;
+  left:15px;
+  right: 15px;
+  height: 100%;
+  line-height: 380px;
+  background-color: rgba(99, 196, 97, 0);
+  z-index: 10;
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+
+#portfolio .col-md-4 .overlay a{
+  text-decoration: none;
+  font-family: 'Pacifico', cursive;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #ffffff;
+  letter-spacing: 3px;
+  line-height: 1px;
+  display: none;
+}
+#portfolio .col-md-4 .overlay:hover{
+  background-color: rgba(99, 196, 97, 0.51);
+  transition: 0.8s;
+  -webkit-transition:  0.8s;
+}
+
+#portfolio .col-md-4 .overlay:hover a{
+  display: inline;
+}
+/*---/portfolio---*/
+
+/*---contact---*/
+#contact{
+  margin-top: 60px;
+  height: 500px;
+  background-color: #333333;
+  text-align: center;
+  color: #ffffff;
+}
+
+#contact h1{
+  font-family: 'Kaushan Script', cursive;
+}
+
+#contact h4{
+  font-family: 'Permanent Marker', cursive;
+}
+
+#contact input{
+  text-align: center;
+  width: 100%;
+  color: #2f4d2f;
+  padding: 5px;
+  margin-bottom: 5px;
+  border: 3px solid #67aa68;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Rancho', cursive;
+}
+
+#contact textarea{
+  text-align: center;
+  width: 100%;
+  color: #2f4d2f;
+  margin-bottom: 5px;
+  border: 3px solid #67aa68;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Rancho', cursive;
+  resize: none
+}
+
+#contact button{
+  width: 100px;
+  color: #ffffff;
+  background-color: #67aa68;
+  border: none;
+  border-radius: 5px;
+  font-size: 30px;
+  font-family: 'Rancho', cursive;
+}
+/*---/contact---*/
+
+/*---footer---*/
+footer{
+  height: 200px;
+  background-color: #181818;
+  text-align: center;
+  color: #ffffff;
+}
+footer h1{
+  font-family: 'Kaushan Script', cursive;
+  line-height: 30px;
+}
+
+footer h4{
+  font-family: 'Permanent Marker', cursive;
+  line-height: 100px;
+}
+/*---/footer---*/
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+@media (max-width: 768px)
+{
+  .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+  {
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ffffff;
+    color: #4d4d4d;
+  }
+  .navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus
+  {
+    color: #c6c6c6;
+  }
+  .navbar-default .navbar-toggle,.navbar-default .navbar-toggle:focus,.navbar-default .navbar-toggle:hover
+  {
+    border: none;
+    background-color:transparent;
+    margin-top: 13px;
+  }
+  .icon-bar
+  {
+    background-color: #72ab44 !important;
+  }
+  .navbar-default .navbar-collapse, .navbar-default .navbar-form
+  {
+    margin-bottom: -8px;
+    border-color: rgba(#8a8a8a, 0.67);
+    border: none;
+  }
+
+  header{
+    height: 420px;
+  }
+  header img{
+    height: 100%;
+  }
+
+  #team img{
+    height: 530px;
+  }
+  #team .overlay h1{
+    font-size: 25px;
+    margin-top: 3%;
+  }
+  #team .overlay h4{
+    font-size: 15px;
+  }
+  #team .overlay .element{
+    margin-top: 2%;
+  }
+  #team .overlay .element h4{
+    font-size: 15px;
+  }
+  #team .overlay .element img{
+    width: 130px;
+    height: 130px;
+  }
+  #team .overlay .element p{
+    font-size: 13px;
+  }
+
+  #contact{
+    height: 550px;
+  }
+
+  footer h1{
+    font-size: 20px;
+  }
+  footer h4{
+    font-size: 10px;
+  }
+}
+/*---------------------------------------------------------*/
+@media (min-width: 768px) and (max-width: 991px)
+{
+  .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+  {
+    margin-right: 10%;
+  }
+
+  #contact{
+    height: 530px;
+  }
+}
+/*---------------------------------------------------------*/
+@media (min-width: 993px) and (max-width: 1146px)
+{
+  .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+  {
+    margin-right: 30%;
+  }
+}
+/*---------------------------------------------------------*/
+@media (min-width: 1430px) and (max-width: 1600px)
+{
+  .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+  {
+    margin-right: 50%;
+  }
+}
+/*---------------------------------------------------------*/
+@media (min-width: 1700px)
+{
+  .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+  {
+    margin-right: 60%;
+  }
+}
+/*---------------------------------------------------------*/
+@media (min-width: 2560px)
+{
+  body
+  {
+    font-size:2em !important;
+  }
+  .navbar-default .navbar-brand,.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
+  {
+    margin-left: 80px !important;
+  }
+  .navbar-default .navbar-nav > li > a,.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover
+  {
+    margin-right: 72%;
+  }
+}
